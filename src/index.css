@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .d {
+    @apply border-2 border-red-800;
+  }
+}
+@layer base {
+  h3 {
+    @apply lg:text-3xl text-2xl;
+  }
+  h4 {
+    @apply lg:text-2xl text-xl;
+  }
+}
